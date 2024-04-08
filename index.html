@@ -4,111 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
     <title>Ali</title>
 </head>
 <body class="container">
+    
     <header>
-        <nav class="nav">
-            <a class="link" href="">Home</a>
-            <a class="link" href="">About</a>
-            <a class="link" href="">Projects</a>
+        <nav>
+            <a href="#contact">
+                <i class="fa-solid fa-phone fa-xl"></i>
+            </a>
         </nav>
-        <a class="btn btn__primary" href="">Contact</a>
     </header>
+    
     <main>
-        
-        
         <section>
-            <h1> Hi 👋 </h1>
-            <hr>
-            <p>
-                I'm Ali, I craft software solutions as a self-taught developer,
-                constantly honing  my skills through personal projects. 
-                I'm comfortable in a variety of  languages,
-                from the efficiency of C to the versatility of Python and
-                JavaScript (including TypeScript).
-                For backend development, I leverage
-                Flask and SQL to build robust systems.
-                My foundation lies in strong  algorithms and data structures,
-                ensuring efficient problem-solving.
+            <h1 class="hero__head">hello,<br>I'm Ali</h1>
+            <p class="hero__text">
+                I build clean, efficient software with focus on web development.
             </p>
-            <div class="grid">
-                <a href="" class="btn btn__secondary">Projects</a>
-                <a href="" class="btn btn__primary">Contact</a>
+            <div class="hero__link">
+                <a href="#projects">
+                    <i class="fa-solid fa-code fa-lg"></i>
+                </a>
             </div>
         </section>
         
-        
-        
-        <section>
-            <h2>About</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Nulla interdum urna quis magna lobortis,
-                eget finibus urna vestibulum. Sed nec ex non justo
-                dictum venenatis.
-                Fusce nec purus nec mauris posuere malesuada
+        <section class="border--right">
+            <p class="about__text">Motivated by a constant appreciation of learning and the excitement
+                that comes with solving problems, I'm a self-taught software developer.
+                My dedication to self-directed learning and continuous growth has
+                allowed me to quickly
+                pick up technical knowledge and valuable software development techniques.
+                My skillset includes programming languages like C,
+                Python, JavaScript, and data structures & algorithms.
             </p>
-            <!--
-                TO-DOs:
-                    - list of skills
-            -->
         </section>
-        
 
-
-        <section>
-            <h2>Projects</h2>
-            <hr>
+        <section id="projects">
             <div class="cards">
                 <div class="card">
-                    <h3 class="card__title">
-                        AirBnB clone
-                    </h3>
-                    <p class="card__description">
-                        Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Placeat ea esse eius odio
-                        officiis ab animi, modi magni nobis,
-                        dolorem veniam id ipsa ratione amet!
-                    </p>
-                    <div class="tech__stack">
-                        <span>C</span>
-                        <span>Data structures</span>
+                    <ul class="tech__stack">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>OOP</li>
+                    </ul>
+                    <h2 class="card__title">
+                        AirBnB clone 
+                    </h2>
+                    <div class="card__link">
+                        <a href="https://github.com/saiAl/AirBnB_clone">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                        </a>
+
                     </div>
-                    <a href="www.google.com">
-                        <img src="images/github.png" class="github__icon" alt="">
-                    </a>
-                </div>
-                <div class="card">
-                    <h3 class="card__title">
-                        Simple shell
-                    </h3>
-                    <p class="card__description">
-                        Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Placeat ea esse eius odio
-                        officiis ab animi, modi magni nobis,
-                        dolorem veniam id ipsa ratione amet!
-                    </p>
-                    <div class="tech__stack">
-                        <span>C</span>
-                        <span>Data structures</span>
-                    </div>
-                    <a href="www.google.com">
-                        <img src="images/github.png" class="github__icon" alt="">
-                    </a>
+
                 </div>
             </div>
         </section>
-
-        <section>
-            <h2>Contact</h2>
-            <hr>
-            <!--
-                TO-DOs:
-                    - form
-            -->
-        </section>
     </main>
+    <footer>
+        <div id="contact">
+            <div>
+                <a href="https://github.com/saiAl">
+                    <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+                
+            </div>
+            <div>
+                <a href="https://twitter.com/mynameissaii">
+                    <i class="fa-brands fa-x-twitter fa-xl"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/ali-gamareldin/">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
+<script src="https://kit.fontawesome.com/bff8f6e2bd.js" crossorigin="anonymous"></script>
 </html>
